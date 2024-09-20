@@ -1,0 +1,153 @@
+html, body{
+	direction:rtl;
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: normal;
+  font-style: normal;
+  src: url('vazir-font/Vazir-Bold-FD-WOL.eot');
+    src: url('vazir-font/Vazir-FD-WOL.woff'),
+    url('vazir-font/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('vazir-font/Vazir-Bold-FD-WOL.ttf') format('truetype'),
+  url('vazir-font/Vazir-FD-WOL.eot'),
+    url('vazir-font/Vazir-FD-WOL.ttf') format('truetype');
+}
+
+*{
+	font-family: vazir;
+}
+
+.img-cover {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.img-fixed {
+  background-attachment: fixed;
+}
+.glyphicon{
+	font-family:'Glyphicons Halflings' !important;
+}
+#nav-top{
+	float:right;
+}
+#nav-top li{
+	float:right;
+}
+#page{
+	margin-top:-20px;
+}
+#banner{
+	height:100px;
+	background-color:#0f5fbb !important;
+
+}
+#logo{
+	width:120px;
+	height:80px;
+	margin-top:10px;
+	margin-right:20px;
+	border-radius:10px;
+	float:right;
+}
+#slogan{
+	float:right;
+	color:#f5f6f7;
+	font-size:30px;
+	margin-top:30px;
+	margin-right:20px
+
+
+}
+
+
+
+.navbar-default{
+		background-color:#1b4c86;
+		font-size: 20px;
+}
+
+a:hover{
+	color: red;
+}
+
+
+#rsb{
+	min-height:500px;
+	margin-top: -20px;
+	background-color:#0f5fbb !important;
+}
+#rsb a{
+	display:block;
+	width:100%;
+	background-color:#eee;
+	color:#000;
+	margin-bottom:5px;
+	font-weight:bold;
+	font-size:15px;
+}
+#rsb a span{
+	margin-left:6px;
+}
+
+#rsb a:first-child{
+	margin-top:10px;
+}
+
+#content{
+	min-height:400px;
+
+
+}
+#footer{
+	height:50px;
+	background-color:#0f5fbb;
+	text-align:center;
+	padding-top:10px;
+	color:#fff !important;
+}
+.input-group-addon{
+	border-top-left-radius:0 !important;
+	border-bottom-left-radius:0 !important;
+	border-top-right-radius:4px!important;
+	border-bottom-right-radius:4px !important;
+	border-right:1px solid #ccc !important;
+	border-left:none !important;
+}
+.input-group{
+	margin-bottom:5px;
+}
+
+.fit-width{
+	width:100%;
+}
+#login{
+	width:80%;
+	margin:0 auto;
+	border:2px solid #CCC;
+	padding:40px;
+	border-radius:10px;
+	background-color:#EEE;
+}
+.red{
+	color:red;
+}
+table.table th{
+	text-align:right;
+}
+
+
+div.search{
+
+	float:left;
+	background-color:#EEE;
+	padding:10px;
+	margin-top:5px;
+	width:350px;
+	height:50px;
+	border-radius:10px;
+	border:1px solid #CCC;
+}
